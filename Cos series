@@ -26,8 +26,8 @@ double cosSeries(double x, int terms) {
 }
 
 int main() {
-    double angle = 1.0;  // Angle in radians
-    int numTerms = 10;   // Number of terms in the series
+    double angle = 1.0;  
+    int numTerms = 10;   
 
     double result = cosSeries(angle, numTerms);
 
